@@ -1,0 +1,11 @@
+.collapse{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+ }
+ ul .nav-link{
+    font-size: 20px;
+    display: inline;
+    /* border: 2px solid black; */
+ }
