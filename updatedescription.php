@@ -52,5 +52,5 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 $update = "UPDATE `description` SET `PAGE_TITLE`='$TITLE',`PAGE_SLUG`='$SLUG',`PAGE_DESCIRPTION`='$DESCRIPTION' WHERE `SR NO`='$SNO'";
 $RESULT = mysqli_query($conn , $update);
 // $num = my_num_rows($RESULT);
-header("location:page_management.php");
+// header("location:page_management.php");
 ?>
