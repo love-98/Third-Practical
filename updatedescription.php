@@ -26,7 +26,7 @@
         </div>
       </nav>
       <div class="container">
-        <form <?php $SNO=$_GET['SRNO']; echo "action='updatedescription.php?SNO=$SNO'";?> method="post">
+        <form <?php $SRNO=$_GET['UPDATE']; echo "action='updatedescription.php?SRNO=$SRNO'";?> method="post">
             <label for="pagetitle" class="form-label"> Page Title</label>
             <input type="text" id="pagetitle" name="pagetitle" class="form-control">
             <label for="pageslug" class="form-label"> Page Slub</label>

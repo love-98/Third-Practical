@@ -85,7 +85,7 @@
             <td><?PHP echo $row['PAGE_SLUG']; ?></td>
             <td> <?PHP echo $row['PAGE_DESCIRPTION']; ?> </td>        
             <?PHP $SRNO = $row['SR NO'];?>
-            <td><?PHP ECHO "<a href='updatedescription.php?SRNO=$SRNO'>"; ?><button class="btn-primary rounded" > Edit </button></a> <?PHP ECHO "<a href='delete.php?sno=$SRNO'>"; ?><button class="BTN btn-primary  rounded"> Delete </button> </a></td>    
+            <td><?PHP ECHO "<a href='updatedescription.php?UPDATE=$SRNO'>"; ?><button class="btn-primary rounded" > Edit </button></a> <?PHP ECHO "<a href='delete.php?sno=$SRNO'>"; ?><button class="BTN btn-primary  rounded"> Delete </button> </a></td>    
           </tr>    
           <?php }?>
    <?PHP } ?>
